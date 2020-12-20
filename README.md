@@ -12,7 +12,7 @@
 - ArtifactId: 그룹의 하위 모듈 (ex. 스프링 시큐리티, 스프링 MVC)
 
 ## 프로젝트 Shortcut
-- Shift + Shift: All, Classes, Files, Symbols, Actions, Git 검색
+- Shift + Shift: All, Classes, Files, Symbols, Actions, Git 검색
 - Cmd + Shfit + O : 파일 검색
 - Cmd + Opt + O : 심볼(메소드) 검색
 - Cmd + Shfit + A : Action 겸색
@@ -26,8 +26,8 @@
   - itar: index가 있는 리스트 형태 객체를 순회하는 반복문을 자동으로 만듦
   - psfs : public static final String 을 자동으로 만듦
   - psfi : public static final int 을 자동으로 만듦
-  - Ctrl + Shift + R: 오른쪽 상단의 설정에 표기되는 현재 포커스를 실행
-  - Ctrl + R: 이전 포커스를 실행
+  - Ctrl + Shift + R: 현재 포커스를 실행
+  - Ctrl + R: 오른쪽 상단에 표기되는 방금 이전 포커스를 실행
 - 라인 수정하기
   - Cmd + D: 현재 라인 아래로 복제
   - Cmd + backspace: 현재 라인 삭제
@@ -59,17 +59,43 @@
 - 검색 텍스트
   - Cmd + F: 현재 파일에서 검색
   - Cmd + Shift + F: 파일과 파일 내용을 전체 프로젝트에서 검색
-  - Cmd + R: 교체
+  - Cmd + R: 텍스트 교체
   - Cmd + E: 최근에 연 파일 리스트 검색
   - Cmd + Shift : 최근에 수정한 파일 리스트 검색
 - 자동완성
   - Cmd + N: Getter/Setter/ 생성자 자동 완성
   - Ctrl + I: 구현해야하는 추상 메소드 자동 완성
 - Live Template
-- 리팩토링 Extract
-- 리팩토링 기타
-- 디버깅
+  - Live Template 설정 창에서 다양한 축약어들을 커스터마이징하여 설정할 수 있음
+- Extract
+  - Opt + Cmd + V: 선택 곳을 변수로 추출하기
+  - Opt + Cmd + P: 선택 곳을 파라미터로 추출하기
+  - Opt + Cmd + M: 선택 곳을 메소드로 추출하기
+  - F6: 선택한 이너 클래스 추출하기
+- 리팩토링
+  - Shift + F6: 변수/메소드의 이름 일괄 변경
+  - Cmd + Shift + F6: 타입 일관 변경
+  - Ctrl + Opt + O: 사용하지 않는 Import 문 정리
+  - Cmd + Opt + L: 프로젝트 포맷 기준에 맞춰 코드 자동 포맷 정렬
+- 터미널
+  - Opt + F12: IDE 내장 터미널을 열어줌
+## 디버깅
+- Ctrl + Shift + D: 현재 포커스를 디버그 모드로 실행
+- Ctrl + D: 오른쪽 상단에 표기되는 방금 이전 포커스를 디버그 모드로 실행
+- BreakPoint
+  - BreakPoint는 코드와 라인 넘버 사이에 마우스로 클릭을 하면 설정 가능
+  - Coditional BreakPoint는 BreakPoint를 우클릭으로 누르고 조건에 자바 코드를 추가해서 설정 가능
+  - Opt + Cmd + R: Resume, 다음 BreakPoint로 이동
+  - F8: Step Over, 현재 BreakPoint의 다음 한줄로 이동
+  - F7: Step Into, 현재 BreakPoint의 코드 안으로 들어가서 이동
+  - Shfit + F8: Step Out, Step Into로 안으로 포커스가 들어 왔을 때 다시 밖으로 이동
+  - Opt + F8: Evaluate Expression, 현재 BreakPoint 시점부터 코드를 단발성으로 실행해볼 수 있음
+  - Watch는 BreakPoint가 걸린 이후에 안경 모양 아이콘을 통해서 설정할 수 있고 input 창에 관찰할 변수 이름을 설정해서 브레이크 이후에도 실시간 값의 변화를 알 수 있음 
 
 ## Git
 
 ## 플러그인
+- .ignore: .gitignore에 자동 완성 및 기본 ignore 파일을 제공하는 플러그인
+- BashSupport: 쉘 코딩에서 자동 완성 및 문법 체크에 도움을 주는 플러그인
+- CheckStyle-IDEA: 체크 스타일 파일이 있을 때 설정할 수 있게 해주는 플러그인
+- 깃 툴박스: 깃 활용할 때 도움이 되는 플러그인
