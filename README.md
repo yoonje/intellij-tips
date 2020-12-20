@@ -12,7 +12,7 @@
 - ArtifactId: 그룹의 하위 모듈 (ex. 스프링 시큐리티, 스프링 MVC)
 
 ## 프로젝트 Shortcut
-- Shift + Shift: All, Classes, Files, Symbols, Actions, Git 검색
+- Shift + Shift: All, Classes, Files, Symbols, Actions, Git 검색
 - Cmd + Shfit + O : 파일 검색
 - Cmd + Opt + O : 심볼(메소드) 검색
 - Cmd + Shfit + A : Action 겸색
