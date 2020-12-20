@@ -12,7 +12,7 @@
 - ArtifactId: 그룹의 하위 모듈 (ex. 스프링 시큐리티, 스프링 MVC)
 
 ## 프로젝트 Shortcut
-- Shift + Shift: All, Classes, Files, Symbols, Actions, Git 검색
+- Shift + Shift: All, Classes, Files, Symbols, Actions, Git 검색
 - Cmd + Shfit + O : 파일 검색
 - Cmd + Opt + O : 심볼(메소드) 검색
 - Cmd + Shfit + A : Action 겸색
@@ -95,7 +95,7 @@
 ## Git
 - 깃 뷰: 하단에 깃 관련 상태를 보여주는 서브 뷰
   - Cmd + 9: 깃 관련 뷰 창 띄우기
-  - Log: 커밋 로그를 볼 수 있는 탭으로 우클릭으로 Git 관련 명령어를 사용 가능 
+  - Log: 커밋 로그를 볼 수 있는 탭으로 우클릭으로 Git 관련 명령어를 사용 가능 
   - Console: 인텔리제이에서 깃을 사용했을 때 연동되는 커맨드들의 결과물 콘솔
 - 깃 팝업:
   - Ctrl + V: 깃 명령어를 쓸 수 있는 팝업 띄우기
