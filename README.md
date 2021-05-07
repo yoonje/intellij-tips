@@ -1,5 +1,5 @@
 # Tips for IntelliJ
-인텔리제이의 강력한 활용을 위한 Mac OS 기준의 팁 정리
+인텔리제이 활용을 위한 Mac OS 기준의 팁 정리
 
 ## Toolbox
 - Jetbrains 제품을 통합 관리해주는 소프트웨어
