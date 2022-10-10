@@ -104,8 +104,12 @@
   - Ctrl + V: 깃 명령어를 쓸 수 있는 팝업 띄우기
   
 ## 플러그인
-- .ignore: .gitignore에 자동 완성 및 기본 ignore 파일을 제공하는 플러그인
-- CheckStyle-IDEA: 체크 스타일 파일이 있을 때 설정할 수 있게 해주는 플러그인
-- 깃 툴박스: 깃 활용할 때 도움이 되는 플러그인
-- Rainbow Brackets: 괄호를 쌍으로 컬러링해서 보여주는 플러그인
-- Key Promoter x: 마우스 등으로 하고 있는 비효율적인 행동을 대신할 수 있는 단축키를 추천해주는 플러그인
+- .ignore
+- CheckStyle-IDEA
+- Git ToolBox
+- Rainbow Brackets
+- Indent Rainbow: 
+- SonarLint
+- DTO Generator
+- POJO to JSON
+- Tab Shifter
