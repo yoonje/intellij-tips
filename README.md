@@ -90,7 +90,7 @@
   - `F8`: Step Over, 현재 BreakPoint의 다음 한줄로 이동
   - `Shfit + F8`: Step Out, Step Into로 안으로 포커스가 들어 왔을 때 다시 밖으로 이동
   - `Opt + F8`: Evaluate Expression, 현재 BreakPoint 시점부터 코드를 단발성으로 실행해볼 수 있음
-  - Watch는 BreakPoint가 걸린 이후에 디버그 창에서 우클릭 `New Watch`로 설정할 수 있고 관찰할 변수명을 설정해서 브레이크 이후에도 실시간 값의 변화를 알 수 있음 
+  - Watch는 BreakPoint가 걸린 이후에 디버그 창에서 우클릭으로 `New Watch`로 설정할 수 있고 관찰할 변수명을 설정해서 브레이크 이후에도 실시간 값의 변화를 알 수 있음 
 
 ## Git
 - 깃 뷰: 하단에 깃 관련 상태를 보여주는 서브 뷰
@@ -108,5 +108,8 @@
 - Indent Rainbow: 
 - SonarLint
 - DTO Generator
+  - 비어 있는 DTO 클래스에서 `Cmd + N`에서 `DTO from JSON` 선택 이후 json 데이터 입력 
 - POJO to JSON
+  - POJO 클래스에서 우클릭으로 `Copy / Paste Special` -> `Copy JSON` 으로 JSON 텍스트 클립보드 복사
 - Tab Shifter
+  - `Opt + Cmd + [ or ]`: `[`를 누를 시 현재 선택 파일을 왼쪽으로 탭을 분할하고 `]`를 누를시 현재 선택 파일 오른쪽으로 탭을 분할
