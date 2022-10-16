@@ -94,18 +94,18 @@
 
 ## Git
 - 깃 뷰: 하단에 깃 관련 상태를 보여주는 서브 뷰
-  - `Cmd + 9`: 깃 뷰 창 띄우기
+  - Cmd + 9: 깃 뷰 창 띄우기
   - Log는 커밋 로그를 볼 수 있는 탭으로 우클릭으로 Git 관련 명령어를 사용 가능 
   - Console은 인텔리제이에서 깃을 사용했을 때 연동되는 커맨드들의 결과물 콘솔
 - 깃 팝업:
-  - `Ctrl + V`: 깃 명령어를 쓸 수 있는 팝업 띄우기
+  - Ctrl + V: 깃 명령어를 쓸 수 있는 팝업 띄우기
   
 ## 플러그인
 - .ignore
 - CheckStyle-IDEA
 - Git ToolBox
 - Rainbow Brackets
-- Indent Rainbow: 
+- Indent Rainbow
 - SonarLint
 - DTO Generator
   - 비어 있는 DTO 클래스에서 `Cmd + N`에서 `DTO from JSON` 선택 이후 json 데이터 입력 
