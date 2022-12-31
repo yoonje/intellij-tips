@@ -107,6 +107,7 @@
 - Rainbow Brackets
 - Indent Rainbow
 - SonarLint
+- MyBatisX or JPA Buddy
 - DTO Generator
   - 비어 있는 DTO 클래스에서 `Cmd + N`에서 `DTO from JSON` 선택 이후 json 데이터 입력 
 - POJO to JSON
