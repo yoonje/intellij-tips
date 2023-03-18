@@ -3,7 +3,7 @@
 
 ## Toolbox
 - Jetbrains 제품을 통합 관리해주는 소프트웨어
-- IntelliJ Setting -> Maximum heap size 설정 (메모리가 16GB이라면 4GB로)
+- IntelliJ Setting -> Maximum heap size 설정 (맥북 메모리가 16GB  4GB로 증량)
 
 ## 프로젝트 생성
 - Dracula 테마 선택
@@ -103,11 +103,11 @@
 ## 플러그인
 - .ignore
 - CheckStyle-IDEA
-- Git ToolBox
+- Git ToolBox(유료)
 - Rainbow Brackets
 - Indent Rainbow
 - SonarLint
-- MyBatisX or JPA Buddy
+- MyBatisX or JPA Buddy(유료)
 - DTO Generator
   - 비어 있는 DTO 클래스에서 `Cmd + N`에서 `DTO from JSON` 선택 이후 json 데이터 입력 
 - POJO to JSON
